@@ -31,7 +31,7 @@ for ip in ipAdd:
 
     #If below string is inside the Backup variable provide the tftp server ip address
     if 'Address or name of remote host' in Backup_config: 
-        Backup_config += net_connect.send_command_timing('10.200.14.27')
+        Backup_config += net_connect.send_command_timing('1.1.1.1')
         
     #If below string is inside the Backup variable provide what the file name should be.
     if 'Destination filename' in Backup_config:
