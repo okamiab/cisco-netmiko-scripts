@@ -7,11 +7,10 @@ password = getpass("Please Enter your password: ")
 
 timestr = time.strftime("%Y-%-m-%d-%H.%M.%S") # Time variable, format date/time accordingly.
 
-#############################################################################
-# This program checks for NTP server if it's not matching the latest_ntp list 
-# it will removed the Current ntp IPs from the device and apply the latest_ntp 
-# IPs to the device.
-#############################################################################
+########################################################################################
+# This program checks for the NTP server. If it does not match the latest_ntp list, 
+# it will remove the current NTP IPs from the device and apply the latest_ntp IPs to it.
+########################################################################################
 
 # Create a device dictionary and pass it the ip from the loop below.
 def device_config(device_ip):
