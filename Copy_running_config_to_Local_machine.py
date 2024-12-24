@@ -7,6 +7,11 @@ Password = getpass()
 
 timestr = time.strftime("%Y-%-m-%d-%H.%M.%S") #Time variable, format date/time accordingly.
 
+##########################################################################
+# This program allows you to view the current device configuration and back 
+# it up to a text file on your local drive.
+##########################################################################
+
 #Open the IP file that contains a list of ip addresses. This can be a simple txt file.
 with open('/filepath.txt', 'r') as IPFile:
     Address = IPFile.readlines() #Convert the content of the file into a list
