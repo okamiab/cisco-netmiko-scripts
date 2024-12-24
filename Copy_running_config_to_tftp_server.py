@@ -8,6 +8,10 @@ Password = getpass()
 
 timestr = time.strftime("%Y-%-m-%d-%H.%M.%S") #Time variable, format date/time accordingly.
 
+####################################################################################
+# This program allows you to copy the device running configuration to a TFTP server.
+####################################################################################
+
 #Open the IP file
 with open('/IP_filePath.txt', 'r') as IPfile:
     ipAdd = IPfile.readlines()
