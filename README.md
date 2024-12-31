@@ -1,2 +1,2 @@
 # cisco-netmiko-scripts
-Basic python script for automating repetitive tasks 
+Python programs to automate repetitive daily tasks for Cisco devices. 
